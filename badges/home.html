@@ -1,48 +1,33 @@
 <!DOCTYLE html>
 <html>
   <head>
-    <style>
-      h1 {
-        margin-top: 20%;
-        font-family: sans-serif;
-      }
-      
-      a:link, a:visited {
-        background-color: white;
-        color: black;
-        border: 2px solid green;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-family: sans-serif;
-      }
-
-      a:hover, a:active {
-        background-color: green;
-        color: white;
-        font-family: sans-serif;
-      }
-      
-      div {
-        text-align: center;
-      }
-    </style>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- sets width to device width, and initial zoom level -->
     <title>Badges</title>
-    <meta content="Badges" property="og:title">
+		<meta content="Badges" property="og:title">
     <meta content="Badges is a discord bot badge system." property="og:description">
     <meta content="https://badgesbot.com" property="og:url">
     <meta content="https://cdn.discordapp.com/avatars/844390262045540353/126b1aa184428d20a61a52fb6d343d65.png?size=128" property="og:image">
     <meta content="#FB1515" data-react-helmet="true" name="theme-color">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.discordapp.com/avatars/844390262045540353/126b1aa184428d20a61a52fb6d343d65.png?size=128"> 
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.discordapp.com/avatars/844390262045540353/126b1aa184428d20a61a52fb6d343d65.png?size=32"> 
   </head>
+	<header>
+	<img src="https://cdn.discordapp.com/avatars/844390262045540353/126b1aa184428d20a61a52fb6d343d65.png" alt="Icon" width="48" height="48">
+  	<h1 class="logo">Badges</h1>
+  	<input type="checkbox" id="nav-toggle" class="nav-toggle">
+  	<nav>
+    	<ul>
+      		<li><a href="invite">Invite</a></li>
+      		<li><a href="join">Discord</a></li>
+      		<li><a href="vote">Vote</a></li>
+      		<li><a href="topgg">Top.GG</a></li>
+    	</ul>
+  	</nav>
+  	<label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
+</header>
   <body>
-    <div>
-      <h1>BadgesBot Menu</h1>
-      <a href="https://invite.badgesbot.com/">Invite</a>
-      <a href="https://join.badgesbot.com/">Join Server</a>
-      <a href="https://vote.badgesbot.com/">Vote</a>
-      <a href="https://topgg.badgesbot.com/">Top.gg</a>
-    </div>
   </body>
 </html>

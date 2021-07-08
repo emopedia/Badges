@@ -86,7 +86,7 @@ nav {
   text-align: left;
   top: 100%;
   left: 0;
-  background: var(--background);
+  background: #36393E;
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -193,4 +193,8 @@ nav a:hover {
   nav a:hover::before {
     transform: scale(1,1);
   }
+	
+	.about-container {
+		color: white;
+	}
 }

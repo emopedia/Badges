@@ -231,4 +231,11 @@ nav a:hover {
   	margin: 4px 2px;
   	cursor: pointer;
 	}
+	
+	.footer {
+		color: white;	
+		background-color: #36393E;
+		opacity: .7;
+		height: 200px;
+	}
 }

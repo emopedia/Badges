@@ -209,7 +209,16 @@ nav a:hover {
 		color: white;	
 	}
 	
-	.alright {
+	.invite-now {
+		color: white;	
+	}
+	
+	.add-badges {
+		font-size: 18;
+		height: 10px;
+	}
+	
+	.invite {
 		border-radius: 10px;
   	background-color: #36393E;
   	border: none;

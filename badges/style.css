@@ -9,6 +9,9 @@
 }
 
 body {
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
 	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
 	opacity: .8;
 	margin: 0;
@@ -194,7 +197,29 @@ nav a:hover {
     transform: scale(1,1);
   }
 	
-	.about-container {
+	.few-things {
+		border-radius: 10px;
 		color: white;
-	} 
+		background-color: black;
+		opacity: .7;
+		width: 40%;
+	}
+	
+	.about-container {
+		color: white;	
+	}
+	
+	.alright {
+		border-radius: 10px;
+  	background-color: #36393E;
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 22px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+	}
 }

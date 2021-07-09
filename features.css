@@ -208,4 +208,16 @@ nav a:hover {
 	.features {
 		color: white;	
 	}
+	
+	.all-commands {
+		border-radius: 10px;
+		color: white;
+		background-color: black;
+		opacity: .7;
+		width: 40%;
+	}
+	
+	.commands {
+		color: white;	
+	}
 }

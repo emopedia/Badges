@@ -210,7 +210,11 @@ nav a:hover {
 	}
 	
 	.invite-now {
-		color: white;	
+		border-radius: 10px;
+		color: white;
+		background-color: black;
+		opacity: .7;
+		width: 40%;
 	}
 	
 	.add-badges {

@@ -1,2 +1,2 @@
 # Badges
-The offical Github repository for https://badgesbot.com
+The official Github repository for https://badgesbot.com
